@@ -1,0 +1,13 @@
+#Este programa nos ayuda a tener una esimación de si en nuestro hato ganadero esta presente el Virus de la Diarrea Viral Bovina:
+print ("EJERCICIO")
+signo_1= input("¿Tu vaca tiene Diarrea? (Responde con True o False)")
+
+signo_2= input ("¿Tu vaca presento abortos? (Responde con True o False)")
+
+signo_3= input ("¿Tu vaca tiene ulceras en las mucosas? Responde con True o False)")
+
+signo_4= input ("¿Tu vaca presenta fiebre alta? Responde con True o False)")
+
+
+print (f"Tu vaca presento diarrea: {signo_1}. Tu vaca presento abortos: {signo_2}.  Tu vaca presento ulceras en las mucosas: {signo_3}. Tu vaca presento fiebre alta: {signo_4}. Esto quiero decir que DVB es:")
+print (signo_1==signo_2 and signo_3 == signo_4 and signo_1==signo_3 and signo_1 == signo_4 and signo_2 == signo_3 and signo_2== signo_4 and signo_3== signo_4, "En tu establo")
